@@ -34,7 +34,7 @@ const stickermaker = (prefix, botName, ownerName) => {
    ┃ *Desc* : Crie Um Gif/Vídeo De Adesivo
    ┠──────────────╼
    ┠≽ *${prefix}ttp*
-   ┃ *Desc* : Text To Sticker
+   ┃ *Desc* : Texto para adesivo
    ╿ *${ownerName}*,
    ╰╼≽ *Developer © ${botName}`
 }
