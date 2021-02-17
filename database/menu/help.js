@@ -40,6 +40,6 @@ const help = (pushname, prefix, botName, ownerName, reqXp, uangku) => {
    ┠≽ *${prefix}ownermenu*
    ┠≽ *${prefix}othermenu*
    ╿ *${ownerName}*,
-   ╰╼≽ *Developer © ${botName}`
+   ╰╼≽ *Developer © ${botName}*`
 }
 exports.help = help
