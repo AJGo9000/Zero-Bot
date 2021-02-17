@@ -1,5 +1,5 @@
 exports.wait = () => {
-        return `⌛ Being Processed ⌛`
+        return `⌛ Espere Um Pouco Meu Amigo ⌛`
 }
 
 exports.timeEnd = () => {
@@ -7,15 +7,15 @@ exports.timeEnd = () => {
 }
 
 exports.succsess = () => {
-        return `✔️ Succsess ✔️`
+        return `✔️ Sucesso ✔️`
 }
 
 exports.levelon = () => {
-        return `❬ ✔ ❭ *enable leveling*`
+        return `❬ ✔ ❭ *O comando leveling foi Ativo*`
 }
 
 exports.levelnoton = () => {
-        return `❬ X ❭  *disable leveling*`
+        return `❬ X ❭  *O comando leveling foi Desativado*`
 }
 
 exports.levelnol = () => {
