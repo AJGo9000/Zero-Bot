@@ -11,27 +11,27 @@ const stickermaker = (prefix, botName, ownerName) => {
 ┯┷ *〈 ABOUT 〉*
 ╽
 ┠≽ *${prefix}info* (error)
-┃ *Desc* : Show Bot Details
+┃ *Desc* : Mostrar Detalhes Do Bot
 ┠──────────────╼
 ┠≽ *${prefix}blocklist*
-┃ *Desc* : Show Blocked User
+┃ *Desc* : Mostrar Usuário Bloqueado
 ┠──────────────╼
 ┠≽ *${prefix}chatlist* (error)
-┃ *Desc* : Show All Chat User
+┃ *Desc* : Mostrar Todos Os Usuários Do Bate-papo
 ┠──────────────╼
 ┠≽ *${prefix}ping*
-┃ *Desc* : Show Connection Bot Speed
+┃ *Desc* : Mostrar Velocidade Do Bot De Conexão
 ┠──────────────╼
 ┠≽ *${prefix}bugreport* <text>
-┃ *Desc* : Report Bug To Owner Bot
+┃ *Desc* : Reportar Bug ao Proprietário Do Bot
 ╿
 ┷┯ *〈 STICKER MAKER 〉*
    ╽
    ┠≽ *${prefix}sticker*
-   ┃ *Desc* : Make Sticker Image
+   ┃ *Desc* : Faça Uma Imagem De Adesivo
    ┠──────────────╼
    ┠≽ *${prefix}stickergif*
-   ┃ *Desc* : Make Sticker Gif/Video
+   ┃ *Desc* : Crie Um Gif/Vídeo De Adesivo
    ┠──────────────╼
    ┠≽ *${prefix}ttp*
    ┃ *Desc* : Text To Sticker
