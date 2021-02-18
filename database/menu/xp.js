@@ -2,7 +2,7 @@ const xp = (prefix, botName, ownerName) => {
         return `
 ┏ *〈 ${botName} 〉*
 ╿
-┷┯ *〈 BOT INFO 〉*
+┷┯ *〈 INFORMAÇÕES DO BOT 〉*
    ╽
    ┠≽ *Prefix* : 「  ${prefix}  」
    ┠≽ *Creator* : ${ownerName}
