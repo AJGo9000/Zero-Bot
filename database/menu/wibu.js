@@ -2,7 +2,7 @@ const wibu = (prefix, botName, ownerName) => {
         return `
 ┏ *〈 ${botName} 〉*
 ╿
-┷┯ *〈 BOT INFO 〉*
+┷┯ *〈 INFORMAÇÕES DO BOT 〉*
    ╽
    ┠≽ *Prefix* : 「  ${prefix}  」
    ┠≽ *Creator* : ${ownerName}
@@ -11,48 +11,48 @@ const wibu = (prefix, botName, ownerName) => {
 ┯┷ *〈 ABOUT 〉*
 ╽
 ┠≽ *${prefix}info* (error)
-┃ *Desc* : Show Bot Details
+┃ *Desc* : Mostrar detalhes do bot
 ┠──────────────╼
 ┠≽ *${prefix}blocklist*
-┃ *Desc* : Show Blocked User
+┃ *Desc* : Mostrar usuário bloqueado
 ┠──────────────╼
 ┠≽ *${prefix}chatlist* (error)
-┃ *Desc* : Show All Chat User
+┃ *Desc* : Mostrar todos os usuários de bate-papo
 ┠──────────────╼
 ┠≽ *${prefix}ping*
-┃ *Desc* : Show Connection Bot Speed
+┃ *Desc* : Mostrar velocidade do bot de conexão
 ┠──────────────╼
 ┠≽ *${prefix}bugreport* <text>
-┃ *Desc* : Report Bug To Owner Bot
+┃ *Desc* : Reportar bug ao proprietário do bot
 ╿
 ┷┯ *〈 WEEBOO 〉*
    ╽
    ┠≽ *${prefix}neonime*
-   ┃ *Desc* : Search Neonime
+   ┃ *Desc* : Procurar Neonime
    ┠──────────────╼
    ┠≽ *${prefix}pokemon*
-   ┃ *Desc* : Random Pokemon Image
+   ┃ *Desc* : Imagem aleatória de Pokemon
    ┠──────────────╼
    ┠≽ *${prefix}loli*
-   ┃ *Desc* : Random Loli Image
+   ┃ *Desc* : Imagem aleatória de Loli
    ┠──────────────╼
    ┠≽ *${prefix}waifu*
-   ┃ *Desc* : Random Waifu Image
+   ┃ *Desc* : Imagem aleatória de Waifu
    ┠──────────────╼
    ┠≽ *${prefix}randomanime*
-   ┃ *Desc* : Random Anime Image
+   ┃ *Desc* : Imagem aleatória de Anime
    ┠──────────────╼
    ┠≽ *${prefix}husbu*
-   ┃ *Desc* : Random Husbu Image
+   ┃ *Desc* : Imagem aleatória de Husbu
    ┠──────────────╼
    ┠≽ *${prefix}husbu2*
-   ┃ *Desc* : Random Husbu2 Image
+   ┃ *Desc* : Imagem aleatória de Husbu2
    ┠──────────────╼
    ┠≽ *${prefix}wait*
-   ┃ *Desc* : Send Anime Name & Short Scene
+   ┃ *Desc* : Enviar nome de anime & Cena curta
    ┠──────────────╼
    ┠≽ *${prefix}nekonime*
-   ┃ *Desc* : Random Nekonime Image
+   ┃ *Desc* : Imagem aleatória de Nekonime
    ╿ *${ownerName}*,
    ╰╼≽ *Developer © ${botName}`
 }
