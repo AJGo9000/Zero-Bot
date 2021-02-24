@@ -385,21 +385,21 @@ async function starts() {
                         const q = args.join(' ')
                         
                         mess = {
-                                wait: '⌛ Sedang di Prosess ⌛',
-                                succsess: '✔️ Berhasil ✔️',
-                                levelon: '❬ ✔ ❭ *leveling telah aktif*',
-                                levelnoton: `❬ X ❭  *disable leveling*`,
-                                levelnol: '*LEVEL KAKAK MASIH* 0 °-°',
+                                wait: '⌛ Está em Processo ⌛',
+                                succsess: '✔️ Feito ✔️',
+                                levelon: '❬ ✔ ❭ *O comando Leveling está ativo*',
+                                levelnoton: `❬ X ❭  *O comando Leveling está desativado*`,
+                                levelnol: '*LEVEL KAKAK AINDA* 0 °-°',
                                 error: {
-                                	    stick: '[❗] Gagal, terjadi kesalahan saat mengkonversi gambar ke sticker ❌',
-                                        Iv: '❌ Link tidak valid ❌',
+                                	    stick: '[❗] Falha, ocorreu um erro ao converter a imagem em um adesivo ❌',
+                                        Iv: '❌ Link inválido ❌',
                                 },
                         	only: {
-                        	        group: '[❗] Perintah ini hanya bisa di gunakan dalam group! ❌',
-                                        ownerG: `[❗] Perintah ini hanya bisa di gunakan oleh owner group! ❌`,
-                        	        admin: `[❗] Perintah ini hanya bisa di gunakan oleh admin group! ❌`,
-                                        Badmin: `[❗] Perintah ini hanya bisa di gunakan ketika bot menjadi admin! ❌`,
-                                        daftarB: `──「 BELUM REGISTER 」──\nHalo kak !\nKamu belum Register nih, register dulu yuk... \n\nCommand : ${prefix}register nama|umur\nContoh : ${prefix}register Nazwa|16`,
+                        	        group: '[❗] Este comando só pode ser usado em grupos! ❌',
+                                        ownerG: `[❗] Este comando só pode ser usado pelo grupo proprietário! ❌`,
+                        	        admin: `[❗] Este comando só pode ser usado por administradores de grupo! ❌`,
+                                        Badmin: `[❗] Este comando só pode ser usado quando o bot se torna administrador! ❌`,
+                                        daftarB: `──「 AINDA NÃO REGISTRADO 」──\nOlá como !\nVocê ainda não se cadastrou, vamos registrar primeiro... \n\nComando : ${prefix}register nome|idade\nExemplo : ${prefix}register Zero|15`,
                                 }
                         }
                 	const apakah = ['Ya','Tidak']
