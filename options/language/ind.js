@@ -1,21 +1,21 @@
 exports.wait = () => {
-        return `⌛ Sedang di Prosess ⌛`
+        return `⌛ Está em processo ⌛`
 }
 
 exports.timeEnd = () => {
-        return `Waktu Habis`
+        return `O tempo acabou`
 }
 
 exports.succsess = () => {
-        return `✔️ Berhasil ✔️`
+        return `✔️ Funciona ✔️`
 }
 
 exports.levelon = () => {
-        return `❬ ✔ ❭ *leveling telah aktif*`
+        return `❬ ✔ ❭ *O comando Leveling está ativo*`
 }
 
 exports.levelnoton = () => {
-        return `❬ X ❭  *disable leveling*`
+        return `❬ X ❭  *O comando Leveling está desativado*`
 }
 
 exports.levelnol = () => {
