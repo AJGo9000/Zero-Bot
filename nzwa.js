@@ -1630,7 +1630,7 @@ async function starts() {
 					ran = getRandom('.png')
 					exec(`ffmpeg -i ${media} ${ran}`, (err) => {
 						fs.unlinkSync(media)
-						if (err) return reply('âŒ Gagal, pada saat mengkonversi sticker ke gambar âŒ')
+						if (err) return reply('Impossível converter adesivos animados em imagem;-;')
 						buffer = fs.readFileSync(ran)
 						nzwa.sendMessage(from, buffer, image, {quoted: mek, caption: '>//<'})
 						fs.unlinkSync(ran)
