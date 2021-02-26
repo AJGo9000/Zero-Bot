@@ -2420,8 +2420,8 @@ async function starts() {
                                         const serialUser = createSerial(20)
                                         if(isNaN(umurUser)) return await reply('Umur harus berupa angka!!')
                                         if (namaUser.length >= 30) return reply(`why is your name so long it's a name or a train`)
-                                        if (umurUser > 40) return reply(`your age is too  old maximum 40 years`)
-                                        if (umurUser < 12) return reply(`your age is too young minimum 12 years`)
+                                        if (umurUser > 40) return reply(`sua idade é muito velha no máximo 40 anos`)
+                                        if (umurUser < 12) return reply(`sua idade é muito jovem, mínimo 12 anos`)
                                         veri = sender
                                         if (isGroup) {
                                                 addRegisteredUser(sender, namaUser, umurUser, time, serialUser)
