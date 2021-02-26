@@ -2262,7 +2262,7 @@ async function starts() {
                                         await limitAdd(sender)
 					break
 				case 'ttp':
-					if (args.length < 1) return reply('Textnya mana um?')
+					if (args.length < 1) return reply('Cadê o texto?')
                                         if (!isRegister) return reply(mess.only.daftarB)
                                         if (isLimit(sender)) return reply(ind.limitend(pusname))
 					ranp = getRandom('.png')
