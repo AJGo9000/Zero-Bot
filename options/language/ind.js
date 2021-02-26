@@ -59,7 +59,7 @@ exports.daftarD = () => {
 }
 
 exports.wrongf = () => {
-        return`*format salah/text kosong*`
+        return`*formato incorreto/enviar texto vazio*`
 }
 
 exports.clears = () => {
