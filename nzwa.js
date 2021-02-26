@@ -1474,7 +1474,7 @@ async function starts() {
 								fs.unlinkSync(media)
 							})
 					} else {
-						reply('Foto aja mas')
+						reply('Só uma foto mano')
 					}
 					break
 
@@ -2592,7 +2592,7 @@ async function starts() {
 							reply(err)
 		      				})
 					} else {
-						reply('Foto aja mas')
+						reply('Só uma foto mano')
 					}
 					break
 				default:
