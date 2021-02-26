@@ -23,31 +23,31 @@ exports.levelnol = () => {
 }
 
 exports.stick = () => {
-        return `[❗] Gagal, terjadi kesalahan saat mengkonversi gambar ke sticker ❌`
+        return `[❗] Falha, ocorreu um erro ao converter a imagem em um adesivo ❌`
 }
 
 exports.Iv = () => {
-        return `❌ Link tidak valid ❌`
+        return `❌ Link inválido ❌`
 }
 
 exports.group = () => {
-        return `[❗] Perintah ini hanya bisa di gunakan dalam group! ❌`
+        return `[❗] Este comando só pode ser usado em grupos! ❌`
 }
 
 exports.ownerG = () => {
-        return `[❗] Perintah ini hanya bisa di gunakan oleh owner group! ❌`
+        return `[❗] Este comando só pode ser usado pelo grupo proprietário! ❌`
 }
 
 exports.ownerB = () => {
-        return `[❗] Perintah ini hanya bisa di gunakan oleh owner bot! ❌`
+        return `[❗] Este comando só pode ser usado pelo proprietário do bot! ❌`
 }
 
 exports.admin = () => {
-        return `[❗] Perintah ini hanya bisa di gunakan oleh admin group! ❌`
+        return `[❗] Este comando só pode ser usado por administradores de grupo! ❌`
 }
 
 exports.Badmin = () => {
-        return `[❗] Perintah ini hanya bisa di gunakan ketika bot menjadi admin! ❌`
+        return `[❗] Este comando só pode ser usado quando o bot se torna administrador! ❌`
 }
 
 exports.daftarB = (prefix) => {
