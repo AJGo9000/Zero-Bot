@@ -1177,7 +1177,7 @@ async function starts() {
 						teks += `â• âž¥ @${mem.jid.split('@')[0]}\n`
 						members_id.push(mem.jid)
 					}
-					mentions('â•”â•â•âœªã€˜ Mention All ã€™âœªâ•â•\nâ• âž¥'+teks+'â•šâ•ã€˜ - - - - ã€™', members_id, true)
+					mentions('â•”â•â•âœªã€˜ Mencionando Todos ã€™âœªâ•â•\nâ• âž¥'+teks+'â•šâ•ã€˜ Zero Bot ã€™', members_id, true)
 					break
                 case 'tagall2':
 				nzwa.updatePresence(from, Presence.composing) 
@@ -1190,7 +1190,7 @@ async function starts() {
 						teks += `â• âž¥ ${mem.jid.split('@')[0]}\n`
 						members_id.push(mem.jid)
 					}
-					nzwa.sendMessage(from, 'â•”â•â•âœªã€˜ Mention All ã€™âœªâ•â•\nâ• âž¥'+teks+'â•šâ•ã€˜ - - - - ã€™', text, {quoted: mek})
+					nzwa.sendMessage(from, 'â•”â•â•âœªã€˜ Mencionando Todos ã€™âœªâ•â•\nâ• âž¥'+teks+'â•šâ•ã€˜ Zero Bot ã€™', text, {quoted: mek})
 					break
                 case 'tagall3':
 				nzwa.updatePresence(from, Presence.composing) 
@@ -1203,7 +1203,7 @@ async function starts() {
 						teks += `â• âž¥ https://wa.me/${mem.jid.split('@')[0]}\n`
 						members_id.push(mem.jid)
 					}
-					nzwa.sendMessage(from, 'â•”â•â•âœªã€˜ Mention All ã€™âœªâ•â•\nâ• âž¥'+teks+'â•šâ•ã€˜ - - - - - ã€™', text, {detectLinks: false, quoted: mek})
+					nzwa.sendMessage(from, 'â•”â•â•âœªã€˜ Mencionando Todos ã€™âœªâ•â•\nâ• âž¥'+teks+'â•šâ•ã€˜ Zero Bot ã€™', text, {detectLinks: false, quoted: mek})
 					break
                         case 'tagall4':
 				nzwa.updatePresence(from, Presence.composing) 
@@ -1216,7 +1216,7 @@ async function starts() {
 						teks += `â• âž¥ ${mem.jid.split('@')[0]}@c.us\n`
 						members_id.push(mem.jid)
 					}
-					nzwa.sendMessage(from, 'â•”â•â•âœªã€˜ Mention All ã€™âœªâ•â•\nâ• âž¥'+teks+'â•šâ•ã€˜ - - - - - ã€™', text, {quoted: mek})
+					nzwa.sendMessage(from, 'â•”â•â•âœªã€˜ Mencionando Todos ã€™âœªâ•â•\nâ• âž¥'+teks+'â•šâ•ã€˜ Zero Bot ã€™', text, {quoted: mek})
 					break
                 case 'tagall5':
 				nzwa.updatePresence(from, Presence.composing) 
@@ -1229,7 +1229,7 @@ async function starts() {
 						teks += `â• âž¥ ${mem.jid.split('@')[0]}@s.whatsapp.net\n`
 						members_id.push(mem.jid)
 					}
-					reply('â•”â•â•âœªã€˜ Mention All ã€™âœªâ•â•\nâ• âž¥'+teks+'â•šâ•ã€˜ - - - - - ã€™')
+					reply('â•”â•â•âœªã€˜ Mencionando Todos ã€™âœªâ•â•\nâ• âž¥'+teks+'â•šâ•ã€˜ Zero ã€™')
 					break
 				case 'send':
 					var pc = body.slice(6)
