@@ -2285,7 +2285,7 @@ async function starts() {
 					for (let _ of anu) {
 						nzwa.deleteChat(_.jid)
 					}
-					reply('Sukses delete all chat :)')
+					reply('Sucesso ao deletar todas as mensagens :)')
 					break
 				case 'simi':
 					if (args.length < 1) return reply('Textnya mana um?')
