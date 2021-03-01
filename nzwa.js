@@ -2076,11 +2076,11 @@ async function starts() {
 					break*/
                                 case 'afk':
                                         tels = body.slice(4)
-                                        if (args.length < 1) return reply('kakak afk karena apa?')
+                                        if (args.length < 1) return reply('kakak por causa de quê?')
                                         if (!isRegister) return reply(mess.only.daftarB)
                                         var nom = mek.participant
                                         const tag = {
-                                                text: `@${nom.split("@s.whatsapp.net")[0]} *SEDANG AFK ${tels} JANGAN GANGGU YA*`,
+                                                text: `@${nom.split("@s.whatsapp.net")[0]} *ESTÁ EM AFK ${tels} NÃO PERTURBE😡*`,
                                                 contextInfo: { mentionedJid: [nom] }
                                         }
                                         nzwa.sendMessage(from, tag, text, {quoted: mek})
