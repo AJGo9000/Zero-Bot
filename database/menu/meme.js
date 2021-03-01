@@ -28,9 +28,9 @@ const meme = (prefix, botName, ownerName) => {
 ┷┯ *〈 MEME 〉*
    ╽
    ┠≽ *${prefix}meme*
-   ┃ *Desc* : Send Random Meme[eng]
+   ┃ *Desc* : Enviar meme aleatório [eng]
    ┠≽ *${prefix}memeindo*
-   ┃ *Desc* : Send Random Meme [indo]
+   ┃ *Desc* : Enviar meme aleatório [indo]
    ╿ *${ownerName}*,
    ╰╼≽ *Developer © ${botName}`
 }
