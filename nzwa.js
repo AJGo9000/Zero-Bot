@@ -2445,7 +2445,7 @@ async function starts() {
                                                 const one = 999999999
                                                 addLevelingXp(sender, one)
                                                 addLevelingLevel(sender, 99)
-                                                reply(`karena anda owner kami dari team bot mengirim ${one}Xp untuk anda`)
+                                                reply(`porque você é nosso proprietário da equipe bot te envio ${one}XP para você`)
                                         } else {
                                                 const mining = Math.ceil(Math.random() * 10000)
                                                 addLevelingXp(sender, mining)
