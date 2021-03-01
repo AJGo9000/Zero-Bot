@@ -25,20 +25,20 @@ const limit = (prefix, botName, ownerName) => {
 ┠≽ *${prefix}bugreport* <texto>
 ┃ *Desc* : Reportar bug ao proprietário do bot
 ╿
-┷┯ *〈 LIMIT 〉*
+┷┯ *〈 LIMITE〉*
    ╽
    ┠≽ *${prefix}limit*
-   ┃ *Desc* : Check Your Limit
+   ┃ *Desc* : Verifique o seu limite
    ┠──────────────╼
    ┠≽ *${prefix}bal*
-   ┃ Check Your Money
+   ┃ Verifique o seu dinheiro
    ┠──────────────╼
    ┠≽ *${prefix}buylimit* <count>
-   ┃ *Desc* : Buy Limit
+   ┃ *Desc* : Limite de compra
    ╿ *${ownerName}*,
    ╰╼≽ *Developer © ${botName}
 --------------------------------
-Note: Kamu bisa membeli limit dengan cara mengumpulkan uang terlebih dahulu. Cek uang kamu dengan cara mengetikan perintah *${prefix}bal* , harga 1 limit = 1000 uang.
-Note2: Kamu bisa mengumpulkan uang dengan cara chat dengan teman segroup atau bisa dengan naik level.`
+Anotação: Você pode comprar limites recolhendo dinheiro primeiro. Verifique seu dinheiro digitando comandos *${prefix}bal* , preço 1 limite = 1000 dinheiro.
+Anotação 2: Você pode coletar dinheiro conversando com amigos do grupo ou subindo de nível.`
 }
 exports.limit = limit
