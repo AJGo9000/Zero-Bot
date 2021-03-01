@@ -22,7 +22,7 @@ const stickermaker = (prefix, botName, ownerName) => {
 ┠≽ *${prefix}ping*
 ┃ *Desc* : Mostrar Velocidade Do Bot De Conexão
 ┠──────────────╼
-┠≽ *${prefix}bugreport* <text>
+┠≽ *${prefix}bugreport* <texto>
 ┃ *Desc* : Reportar Bug ao Proprietário Do Bot
 ╿
 ┷┯ *〈 STICKER MAKER 〉*
