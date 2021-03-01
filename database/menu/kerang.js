@@ -2,7 +2,7 @@ const kerang = (prefix, botName, ownerName) => {
 	return `
 ┏ *〈 ${botName} 〉*
 ╿
-┷┯ *〈 BOT INFO 〉*
+┷┯ *〈 INFORMAÇÕES DO BOT 〉*
    ╽
    ┠≽ *Prefix* : 「  ${prefix}  」
    ┠≽ *Creator* : ${ownerName}
@@ -11,42 +11,42 @@ const kerang = (prefix, botName, ownerName) => {
 ┯┷ *〈 ABOUT 〉*
 ╽
 ┠≽ *${prefix}info* (error)
-┃ *Desc* : Show Bot Details
+┃ *Desc* : Mostrar detalhes do bot
 ┠──────────────╼
 ┠≽ *${prefix}blocklist*
-┃ *Desc* : Show Blocked User
+┃ *Desc* : Mostrar usuário bloqueado
 ┠──────────────╼
 ┠≽ *${prefix}chatlist* (error)
-┃ *Desc* : Show All Chat User
+┃ *Desc* : Mostrar todos os usuários de bate-papo
 ┠──────────────╼
 ┠≽ *${prefix}ping*
-┃ *Desc* : Show Connection Bot Speed
+┃ *Desc* : Mostrar velocidade do bot de conexão
 ┠──────────────╼
-┠≽ *${prefix}bugreport* <text>
-┃ *Desc* : Report Bug To Owner Bot
+┠≽ *${prefix}bugreport* <texto>
+┃ *Desc* : Reportar bug ao proprietário do bot
 ╿
-┷┯ *〈 KERANG AJAIB 〉*
+┷┯ *〈 CARTUCHOS MARAVILHOSOS 〉*
    ╽
-   ┠≽ *${prefix}apakah* <optional>
-   ┃ *Desc* : Asking Is
+   ┠≽ *${prefix}apakah* <opcional>
+   ┃ *Desc* : Perguntar é
    ┠──────────────╼
-   ┠≽ *${prefix}bisakah* <optional>
-   ┃ *Desc* : Ask Can
+   ┠≽ *${prefix}bisakah* <opcional>
+   ┃ *Desc* : Perguntar pode
    ┠──────────────╼
-   ┠≽ *${prefix}kapankah* <optional>
-   ┃ *Desc* : Ask When
+   ┠≽ *${prefix}kapankah* <opcional>
+   ┃ *Desc* : Pergunte quando
    ┠──────────────╼
    ┠≽ *${prefix}watak*
-   ┃ *Desc* : Transmitting Characters at Random
+   ┃ *Desc* : Transmitindo personagens ao acaso
    ┠──────────────╼
    ┠≽ *${prefix}hobby*
-   ┃ *Desc* : Randomly Sending Hobbies
+   ┃ *Desc* : Envio aleatório de hobbies
    ┠──────────────╼
    ┠≽ *${prefix}gantengcek*
-   ┃ *Desc* : How Handsome
+   ┃ *Desc* : Quão bonito
    ┠──────────────╼
    ┠≽ *${prefix}cantikcek*
-   ┃ *Desc* : How Beautiful
+   ┃ *Desc* : Que bonito
    ╿ *${ownerName}*,
    ╰╼≽ *Developer © ${botName}`
 }
