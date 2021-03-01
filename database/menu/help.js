@@ -7,7 +7,7 @@ const help = (pushname, prefix, botName, ownerName, reqXp, uangku) => {
    ┠≽ *Name* : ${pushname}
    ┠≽ *XP* : ${reqXp}
    ┠≽ *Money* : ${uangku}
-   ┠≽ *Registered : ✔️
+   ┠≽ *Registered* : ✔️
    ╿
 ┯┷ *〈 BOT INFO 〉*
 ╽
