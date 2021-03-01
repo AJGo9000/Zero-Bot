@@ -110,7 +110,7 @@ const vcard = 'BEGIN:VCARD\n' // metadata of the contact card
 prefix = botPrefix
 blocked = []
 limitawal = userDefaultLimit
-cr = '*Verified*'
+cr = '*Verificado*'
 memberlimit = memberLimitss
 
 // Functions
