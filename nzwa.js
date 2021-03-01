@@ -1488,14 +1488,14 @@ async function starts() {
                          contextInfo: {mentionedJid: [nomor]},
                      }
                     nzwa.sendMessage(NomerOwner, options, text, {quoted: mek})
-                    reply('Masalah telah di laporkan ke owner BOT, laporan palsu/main2 tidak akan ditanggapi.')
+                    reply('Problemas foram relatados ao proprietário do BOT, relatórios falsos não serão respondidos.')
                     break
                case 'apakah':
                nzwa.updatePresence(from, Presence.composing) 
 
                random = apakah[Math.floor(Math.random() * (apakah.length))]
   	
-			   hasil = `Pertanyaan : *${body.slice(1)}*\n\nJawaban : *${random}*`
+			   hasil = `Pergunta : *${body.slice(1)}*\n\nResponda : *${random}*`
 			   reply(hasil)
 			   break
               case 'bisakah':
