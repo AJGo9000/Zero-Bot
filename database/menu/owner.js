@@ -42,7 +42,7 @@ const owner = (prefix, botName, ownerName) => {
    ┠≽ *${prefix}clone* <@tag>
    ┃ *Desc* : Clonar perfil de outros membros
    ┠──────────────╼
-   ┠≽ *${prefix}clearall
+   ┠≽ *${prefix}clearall*
    ┃ *Desc* : Limpar todo o bate-papo
    ╿ *${ownerName}*,
    ╰╼≽ *Developer © ${botName}`
