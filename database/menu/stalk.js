@@ -22,7 +22,7 @@ const stalk = (prefix, botName, ownerName) => {
 ┠≽ *${prefix}ping*
 ┃ *Desc* : Mostrar velocidade do bot de conexão
 ┠──────────────╼
-┠≽ *${prefix}bugreport* <text>
+┠≽ *${prefix}bugreport* <texto>
 ┃ *Desc* : Reportar bug ao proprietário do bot
 ╿
 ┷┯ *〈 STALK 〉*
