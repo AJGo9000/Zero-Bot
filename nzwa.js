@@ -1838,13 +1838,13 @@ async function starts() {
 						if (isNsfw) return reply('fitur sudah aktif')
 						nsfw.push(from)
 						fs.writeFileSync('./database/json/nsfw.json', JSON.stringify(nsfw))
-						reply('â¬ SUCCSESS â­ mengaktifkan fitur nsfw di group ini')
+						reply('SUCESSO RECURSO NSFW ATIVO. APROVEITE PUNHETEIRO')
 					} else if (Number(args[0]) === 0) {
 						nsfw.splice(from, 1)
 						fs.writeFileSync('./database/json/nsfw.json', JSON.stringify(nsfw))
-						reply('â¬ SUCCSESS â­ menonaktifkan fitur nsfw di group ini')
+						reply('SUCESSO AO DESATIVAR O RECURSO NSFW')
 					} else {
-						reply('ketik 1 untuk mengaktifkan, 0 untuk menonaktifkan fitur')
+						reply('digite 1 para ativar, 0 para desativar o recurso')
 					}
 					break	
 				case 'quotes2':
