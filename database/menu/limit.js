@@ -33,7 +33,7 @@ const limit = (prefix, botName, ownerName) => {
    ┠≽ *${prefix}bal*
    ┃ Verifique o seu dinheiro
    ┠──────────────╼
-   ┠≽ *${prefix}buylimit* <count>
+   ┠≽ *${prefix}buylimit* <contar>
    ┃ *Desc* : Limite de compra
    ╿ *${ownerName}*,
    ╰╼≽ *Developer © ${botName}
