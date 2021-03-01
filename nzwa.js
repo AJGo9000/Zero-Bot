@@ -1623,7 +1623,7 @@ async function starts() {
 				case 'toimg':
 				    nzwa.updatePresence(from, Presence.composing)
                                     if (!isRegister) return reply(mess.only.daftarB)
-					if (!isQuotedSticker) return reply('âŒ reply stickernya um âŒ')
+					if (!isQuotedSticker) return reply('responder no sticker hum')
 					reply(mess.wait)
 					encmedia = JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo
 					media = await nzwa.downloadAndSaveMediaMessage(encmedia)
