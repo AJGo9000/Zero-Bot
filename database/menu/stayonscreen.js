@@ -2,7 +2,7 @@ const stayonscreen = (prefix, botName, ownerName) => {
         return `
 ┏ *〈 ${botName} 〉*
 ╿
-┷┯ *〈 BOT INFO 〉*
+┷┯ *〈 INFORMAÇÕES DO BOT 〉*
    ╽
    ┠≽ *Prefix* : 「  ${prefix}  」
    ┠≽ *Creator* : ${ownerName}
@@ -11,23 +11,23 @@ const stayonscreen = (prefix, botName, ownerName) => {
 ┯┷ *〈 ABOUT 〉*
 ╽
 ┠≽ *${prefix}info* (error)
-┃ *Desc* : Show Bot Details
+┃ *Desc* : Mostrar detalhes do bot
 ┠──────────────╼
 ┠≽ *${prefix}blocklist*
-┃ *Desc* : Show Blocked User
+┃ *Desc* : Mostrar usuário bloqueado
 ┠──────────────╼
 ┠≽ *${prefix}chatlist* (error)
-┃ *Desc* : Show All Chat User
+┃ *Desc* : Mostrar todos os usuários de bate-papo
 ┠──────────────╼
 ┠≽ *${prefix}ping*
-┃ *Desc* : Show Connection Bot Speed
+┃ *Desc* : Mostrar velocidade do bot de conexão
 ┠──────────────╼
 ┠≽ *${prefix}bugreport* <text>
-┃ *Desc* : Report Bug To Owner Bot
+┃ *Desc* : Reportar bug ao proprietário do bot
 ╿
-┷┯ *〈 STAY ON SCREEN 〉*
+┷┯ *〈 FIQUE NA TELA 〉*
    ╽
-   ┠≽ *${prefix}afk* <reason>
+   ┠≽ *${prefix}afk* <razão>
    ┃ *Desc* : AFK :V
    ╿ *${ownerName}*,
    ╰╼≽ *Developer © ${botName}`
