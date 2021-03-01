@@ -2322,7 +2322,7 @@ async function starts() {
 						pp = await nzwa.getProfilePicture(id)
 						buffer = await getBuffer(pp)
 						nzwa.updateProfilePicture(botNumber, buffer)
-						mentions(`Foto profile Berhasil di perbarui menggunakan foto profile @${id.split('@')[0]}`, [jid], true)
+						mentions(`Foto do perfil atualizada com sucesso usando a foto do perfil @${id.split('@')[0]}`, [jid], true)
 					} catch (e) {
 						reply('Gagal om')
 					}
