@@ -1718,13 +1718,13 @@ async function starts() {
 						if (isWelkom) return reply('fitur sudah aktif')
 						welkom.push(from)
 						fs.writeFileSync('./database/json/welkom.json', JSON.stringify(welkom))
-						reply('â¬ SUCCSESS â­ mengaktifkan fitur welcome di group ini')
+						reply('SUCESSO AO ATIVAR O RECURSO DE BOAS-VINDAS NESTE GRUPO')
 					} else if (Number(args[0]) === 0) {
 						welkom.splice(from, disable)
 						fs.writeFileSync('./database/json/welkom.json', JSON.stringify(welkom))
-						reply('â¬ SUCCSESS â­ menonaktifkan fitur welcome di group ini')
+						reply('SUCESSO AO DESATIVAR O RECURSO DE BOAS-VINDAS NESTE GRUPO')
 					} else {
-						reply('ketik 1 untuk mengaktifkan, 0 untuk menonaktifkan fitur')
+						reply('digite 1 para ativar, 0 para desativar o recurso')
 					}
                                         break
                                 case 'fakta':
@@ -1741,7 +1741,7 @@ async function starts() {
                                         if (!isRegister) return reply(mess.only.daftarB)
                                         if (isLimit(sender)) return reply(ind.limitend(pusname))
 					tels = body.slice(7)
-					if (tels.length > 15) return reply('Teksnya kepanjangan, maksimal 20 karakter')
+					if (tels.length > 15) return reply('O texto é muito longo, até 20 caracteres')
 					reply(mess.wait)
 					anu = await fetchJson(`https://kocakz.herokuapp.com/api/flamingtext/water?text=${tels}`, {method: 'get'})
 					buffer = await getBuffer(anu.result)
