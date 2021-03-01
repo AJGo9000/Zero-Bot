@@ -2,7 +2,7 @@ const tod = (prefix, botName, ownerName) => {
         return `
 ┏ *〈 ${botName} 〉*
 ╿
-┷┯ *〈 BOT INFO 〉*
+┷┯ *〈 INFORMAÇÕES DO BOT 〉*
    ╽
    ┠≽ *Prefix* : 「  ${prefix}  」
    ┠≽ *Creator* : ${ownerName}
@@ -11,27 +11,27 @@ const tod = (prefix, botName, ownerName) => {
 ┯┷ *〈 ABOUT 〉*
 ╽
 ┠≽ *${prefix}info* (error)
-┃ *Desc* : Show Bot Details
+┃ *Desc* : Mostrar detalhes do bot
 ┠──────────────╼
 ┠≽ *${prefix}blocklist*
-┃ *Desc* : Show Blocked User
+┃ *Desc* : Mostrar usuário bloqueado
 ┠──────────────╼
 ┠≽ *${prefix}chatlist* (error)
-┃ *Desc* : Show All Chat User
+┃ *Desc* : Mostrar todos os usuários de bate-papo
 ┠──────────────╼
 ┠≽ *${prefix}ping*
-┃ *Desc* : Show Connection Bot Speed
+┃ *Desc* : Mostrar velocidade do bot de conexão
 ┠──────────────╼
 ┠≽ *${prefix}bugreport* <text>
-┃ *Desc* : Report Bug To Owner Bot
+┃ *Desc* : Reportar bug ao proprietário do bot
 ╿
-┷┯ *〈 TRUST OR DARE 〉*
+┷┯ *〈 CONFIAR OU OUSAR 〉*
    ╽
    ┠≽ *${prefix}trust*
-   ┃ *Desc* : Random trust
+   ┃ *Desc* : Confiança aleatória
    ┠──────────────╼
    ┠≽ *${prefix}dare*
-   ┃ *Desc* : Random Dare
+   ┃ *Desc* : Ousar aleatória
    ╿ *${ownerName}*,
    ╰╼≽ *Developer © ${botName}`
 }
