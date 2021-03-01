@@ -2449,7 +2449,7 @@ async function starts() {
                                         } else {
                                                 const mining = Math.ceil(Math.random() * 10000)
                                                 addLevelingXp(sender, mining)
-                                                await reply(`*selamat* ${pushname} kamu mendapatkan *${mining}Xp*`)
+                                                await reply(`*Parabéns* ${pushname} você pega *${mining}Xp*`)
                                         }
                                         await limitAdd(sender)
                                         break
