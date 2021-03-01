@@ -1270,7 +1270,7 @@ async function starts() {
 						for (let _ of anu) {
 							sendMess(_.jid, `*「 BROADCAST 」*\n\n${body.slice(4)}`)
 						}
-						reply('Suksess broadcast')
+						reply('Transmissão de sucesso')
 					}
 					break
 					case 'bcgc':
