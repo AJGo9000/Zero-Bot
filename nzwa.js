@@ -1158,7 +1158,7 @@ async function starts() {
 					if (!isGroup) return reply(mess.only.group)
 					if (!isOwner) return reply(ind.ownerB())
 					nzwa.blockUser (`${body.slice(8)}@c.us`, "add")
-					nzwa.sendMessage(from, `perintah Diterima, memblokir ${body.slice(8)}@c.us`, text)
+					nzwa.sendMessage(from, `comando Recebido, membro bloqueado ${body.slice(8)}@c.us`, text)
 					break
 				case 'hilih':
 					nzwa.updatePresence(from, Presence.composing) 
