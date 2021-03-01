@@ -2,7 +2,7 @@ const owner = (prefix, botName, ownerName) => {
         return `
 ┏ *〈 ${botName} 〉*
 ╿
-┷┯ *〈 BOT INFO 〉*
+┷┯ *〈 INFORMAÇÕES DO BOT 〉*
    ╽
    ┠≽ *Prefix* : 「  ${prefix}  」
    ┠≽ *Creator* : ${ownerName}
@@ -11,39 +11,39 @@ const owner = (prefix, botName, ownerName) => {
 ┯┷ *〈 ABOUT 〉*
 ╽
 ┠≽ *${prefix}info* (error)
-┃ *Desc* : Show Bot Details
+┃ *Desc* : Mostrar detalhes do bot
 ┠──────────────╼
 ┠≽ *${prefix}blocklist*
-┃ *Desc* : Show Blocked User
+┃ *Desc* : Mostrar usuário bloqueado
 ┠──────────────╼
 ┠≽ *${prefix}chatlist* (error)
-┃ *Desc* : Show All Chat User
+┃ *Desc* : Mostrar todos os usuários de bate-papo
 ┠──────────────╼
 ┠≽ *${prefix}ping*
-┃ *Desc* : Show Connection Bot Speed
+┃ *Desc* : Mostrar velocidade do bot de conexão
 ┠──────────────╼
-┠≽ *${prefix}bugreport* <text>
-┃ *Desc* : Report Bug To Owner Bot
+┠≽ *${prefix}bugreport* <texto>
+┃ *Desc* : Reportar bug ao proprietário do bot
 ╿
-┷┯ *〈 OWNER 〉*
+┷┯ *〈 PROPRIETÁRIO 〉*
    ╽
-   ┠≽ *${prefix}setprefix* <text/optional>
-   ┃ *Desc* : Replace Prefix
+   ┠≽ *${prefix}setprefix* <texto/opcional>
+   ┃ *Desc* : Substituir Prefixo
    ┠──────────────╼
    ┠≽ *${prefix}block* <@tag>
-   ┃ *Desc* : Block User
+   ┃ *Desc* : Bloquear usuário
    ┠──────────────╼
    ┠≽ *${prefix}unblock* <@tag>
-   ┃ *Desc* : Unblock User
+   ┃ *Desc* : Desbloquear usuário
    ┠──────────────╼
-   ┠≽ *${prefix}bc* <text>
-   ┃ *Desc* : Broadcast to All Contact & Group
+   ┠≽ *${prefix}bc* <texto>
+   ┃ *Desc* : Transmitir para todos os contatos & grupos
    ┠──────────────╼
    ┠≽ *${prefix}clone* <@tag>
-   ┃ *Desc* : Clone Profile From Other Members
+   ┃ *Desc* : Clonar perfil de outros membros
    ┠──────────────╼
    ┠≽ *${prefix}clearall
-   ┃ *Desc* : Clear All Chat
+   ┃ *Desc* : Limpar todo o bate-papo
    ╿ *${ownerName}*,
    ╰╼≽ *Developer © ${botName}`
 }
