@@ -1268,7 +1268,7 @@ async function starts() {
 						reply('')
 					} else {
 						for (let _ of anu) {
-							sendMess(_.jid, `*「 BROADCAST 」*\n\n${body.slice(4)}`)
+							sendMess(_.jid, `*「 TRANSMISSÃO 」*\n\n${body.slice(4)}`)
 						}
 						reply('Transmissão de sucesso')
 					}
