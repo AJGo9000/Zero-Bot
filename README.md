@@ -1,6 +1,6 @@
 ### Moshimoshi~ Sou Zero<img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Hi.gif" width="27px">
 <p align="center">
-<a href="https://github.com/AJGo9000"><img src="https://raw.githubusercontent.com/NazwaS/NazwaS/main/img/Nazwa.jpg"></a>
+<a href="https://github.com/AJGo9000"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUH6urX4baygoDmiZqKNdJcstEBmYKAYGHHg&usqp=CAU"></a>
 </p>
 <br>
 
