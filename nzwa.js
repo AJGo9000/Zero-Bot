@@ -2080,7 +2080,7 @@ async function starts() {
                                         if (!isRegister) return reply(mess.only.daftarB)
                                         var nom = mek.participant
                                         const tag = {
-                                                text: `@${nom.split("@s.whatsapp.net")[0]} *ESTÁ EM AFK:${tels} NÃO PERTURBE 😡*`,
+                                                text: `@${nom.split("@s.whatsapp.net")[0]} *ESTÁ EM AFK: ${tels} NÃO PERTURBE 😡*`,
                                                 contextInfo: { mentionedJid: [nom] }
                                         }
                                         nzwa.sendMessage(from, tag, text, {quoted: mek})
