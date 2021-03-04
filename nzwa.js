@@ -2509,6 +2509,11 @@ async function starts() {
                                         nzwa.sendMessage(from, teks, text)
                                         await limitAdd(sender)
                                         break
+                               case 'dono':
+					                    memein = await kagApi.memeindo()
+					                    buffer = await getBuffer(`(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTEj8bSZxZhoms7C3oP2d_f3FjDrhdxtE4QQ&usqp=CAU)`)
+					                    client.sendMessage(from, buffer, image, {quoted: mek, caption: '*DONO DO BOT: ZERO, SEM SPAMS VIU*'})
+					                    break
                                 case 'kiss':
 		                                 if (args.length < 1) return reply ('${tels} Deu um beijinho em ${body.slice(8)}@c.us`, text')
 		                                 break
