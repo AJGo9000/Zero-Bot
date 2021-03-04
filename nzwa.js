@@ -2398,16 +2398,16 @@ async function starts() {
                                 case 'event':
                                         if (!isGroup) return reply(mess.only.group)
                                         if (!isOwner) return reply(ind.ownerB())
-                                        if (args.length < 1) return reply('ketik 1 untuk mengaktifkan')
+                                        if (args.length < 1) return reply('digite 1 para ativar')
                                         if (Number(args[0]) === 1) {
-                                                if (isEventon) return reply('*SUDAH AKTIF* !!!')
+                                                if (isEventon) return reply('*ATIVADO* !!!')
                                                 event.push(from)
                                                 fs.writeFileSync('./database/json/event.json', JSON.stringify(event))
-                                                reply('*「 SUCCSESS 」 Mengaktifkan EVENT di group ini*')
+                                                reply('*「 SUCESSO 」 EVENTOS ativado neste grupo*')
                                         } else if (Number(args[0]) === 0) {
                                                 event.splice(from, 1)
                                                 fs.writeFileSync('./database/json/event.json', JSON.stringify(event))
-                                                reply('*「 SUCCSESS 」 Menonaktifkan EVENT di group ini*')
+                                                reply('*「 SUCESSO 」 EVENTO desativado neste grupo*')
                                         } else {
                                                 reply(ind.satukos())
                                         }
@@ -2509,6 +2509,9 @@ async function starts() {
                                         nzwa.sendMessage(from, teks, text)
                                         await limitAdd(sender)
                                         break
+                                case 'kiss':
+		                                 if (args.length < 1) return reply ('${tels} Deu um beijinho em ${body.slice(8)}@c.us`, text')
+		                                 break
                                 case 'happymod':
                                         toby = body.slice(10)
                                         if (!isRegister) return reply(mess.only.daftarB)
