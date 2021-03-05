@@ -2520,7 +2520,7 @@ async function starts() {
                                 case 'happymod':
                                         toby = body.slice(10)
                                         if (!isRegister) return reply(mess.only.daftarB)
-                                        if (args.length < 1) return reply(`game yang mau di cari apa kak? \nContoh : ${prefix}happymod pubg`)
+                                        if (args.length < 1) return reply(`game yang mau di cari apa kak? \nExemplo : ${prefix}happymod pubg`)
                                         if (isLimit(sender)) return reply(ind.limitend(pusname))
                                         anu = await fetchJson(`https://tobz-api.herokuapp.com/api/happymod?q=${toby}&apikey=BotWeA`, {method: 'get'})
                                         hepi = anu.result[0]
