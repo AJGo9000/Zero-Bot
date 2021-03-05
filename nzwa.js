@@ -723,7 +723,7 @@ async function starts() {
                                         reply(mess.wait)
                                         anu = await fetchJson(`https://tobz-api.herokuapp.com/api/hentai?apikey=BotWeA`, {method: 'get'})
                                         buffer = await getBuffer(anu.result)
-                                        nzwa.sendMessage(from, buffer, image, {quoted: mek: Punheteiro 2d KAKAKA})
+                                        nzwa.sendMessage(from, buffer, image, {quoted: mek, caption: 'Punheteiro 2D KAKAKAKA'})
                                         await limitAdd(sender)
                                         break
                                 case 'loli':
