@@ -2515,7 +2515,7 @@ async function starts() {
 					                    client.sendMessage(from, buffer, image, {quoted: mek, caption: '*DONO DO BOT: ZERO, SEM SPAMS VIU*'})
 					                    break
                                 case 'kiss':
-		                                 if (args.length < 1) return reply ('${tels} Deu um beijinho em ${body.slice(8)}@c.us`, text')
+		                                 if (args.length < 1) return reply ('Deu um beijinho em')
 		                                 break
                                 case 'happymod':
                                         toby = body.slice(10)
