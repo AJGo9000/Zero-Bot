@@ -2514,9 +2514,11 @@ async function starts() {
 					                    buffer = await getBuffer(`(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTEj8bSZxZhoms7C3oP2d_f3FjDrhdxtE4QQ&usqp=CAU)`)
 					                    client.sendMessage(from, buffer, image, {quoted: mek, caption: '*DONO DO BOT: ZERO, SEM SPAMS VIU*'})
 					                    break
-                                case 'kiss':
-		                                 if (args.length < 1) return reply ('Deu um beijinho em')
-		                                 break
+                                case 'mari':
+					                     memein = await kagApi.memeindo()
+					                     buffer = await getBuffer(`https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUpN-j1iMMIvnLJyNx0RP0Iygb3dOP58ESWw&usqp=CAU`)
+					                     client.sendMessage(from, buffer, image, {quoted: mek, caption: 'A minha razão de viver e por vc meu amor <3 -mari'})
+					                     break
                                 case 'happymod':
                                         toby = body.slice(10)
                                         if (!isRegister) return reply(mess.only.daftarB)
