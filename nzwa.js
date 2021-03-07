@@ -2544,7 +2544,7 @@ async function starts() {
                                 case 'say':
                                         teks = body.slice(5)
                                         if (!isRegister) return reply(mess.only.daftarB)
-                                        if (args.length < 1) return reply('teksnya mana kak?')
+                                        if (args.length < 1) return reply('Onde está o texto, irmão?')
                                         saying = teks
                                         nzwa.sendMessage(from, saying, text)
                                         break
